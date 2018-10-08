@@ -1,0 +1,41 @@
+.upload {
+  &-inner {
+    margin: 20px auto;
+  }
+
+  .ivu-btn.disabled, .ivu-btn[disabled] {
+    cursor: default !important;
+  }
+}
+
+.upload-list {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  &-item {
+    width: 100%;
+    padding: 2px 0 2px 12px;
+    margin: 8px 0;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    cursor: default;
+    user-select: none;
+    transition: .2s;
+    &:hover {
+      border-color: #4499ff;
+    }
+    &-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
+
+.upload, 
+.upload-list {
+  button {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0) !important;
+  }
+}
