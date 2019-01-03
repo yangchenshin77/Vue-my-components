@@ -1,4 +1,4 @@
-# Vue my components
+# my-vue-components
 
 ## iView
 基於 [iView](https://www.iviewui.com/) 的 [Vue](https://github.com/vuejs/vue) 組件
